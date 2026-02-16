@@ -579,3 +579,16 @@ body{
    background-color: black;
 
 }
+.content-hero-section .content-section::-webkit-scrollbar{
+  width:4px;
+}
+
+.content-hero-section .content-section::-webkit-scrollbar-thumb{
+  background:black;
+  border-radius:10px;
+}
+
+.content-hero-section .content-section::-webkit-scrollbar-track{
+  background:white;
+}
+
