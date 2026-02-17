@@ -547,12 +547,12 @@ body{
   background-color: white;
   color: black;
   border-left: 3px solid green;
+  padding: 10px;
 }
 .code-btn-1{
   margin-top: 10px;
   width: 200px;
   height: 30px;
-  margin-left: 10px;
   background-color: #00fffb;
   color: black;
   text-decoration: none;
