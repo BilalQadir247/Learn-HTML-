@@ -37,7 +37,11 @@ css.addEventListener("keyup", runcode)
 
 //try it yourself
 
-const codebtn1 = document.querySelector(".code-btn-1");
-codebtn1.addEventListener("click", () => {
- document.getElementById("try-here-code").scrollIntoView();
+const codebtn1 = document.querySelectorAll(".code-btn-1");
+codebtn1.forEach(btn => {
+  btn.addEventListener("click", () => {
+    document.getElementById("try-here-code").scrollIntoView({
+      behavior: "smooth"
+    })
+  })
 })
