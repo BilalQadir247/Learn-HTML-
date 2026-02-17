@@ -544,7 +544,9 @@ body{
 }
 .code-box1{
   width: 100%;
-  border-left: 3px solid #00D4FF;
+  background-color: white;
+  color: black;
+  border-left: 3px solid green;
 }
 .code-btn-1{
   margin-top: 10px;
