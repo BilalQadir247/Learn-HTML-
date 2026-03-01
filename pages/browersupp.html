@@ -1,0 +1,558 @@
+ <!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Learn HTML | Brower Support</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="../css/style.css" />
+        <link rel="stylesheet" href="../css/media.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="icon" type="image/x-icon" href="../image/logo.png">       
+    </head>
+    <body>
+ <!--navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+     <div class="container">
+      <div class="navbar-brand">
+        <img src="../image/logo.png" alt="logo" class="logo">
+        <b>Learn HTML</b>
+
+        </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar">
+         <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a href="../index.html" class="nav-link"> Home</a>
+          </li>
+           <li class="nav-item">
+            <a href="Tutorials.html" class="nav-link active"> Tutorials</a>
+          </li>
+           <li class="nav-item">
+            <a href="#" class="nav-link"> Practice</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link"> Quiz</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link"> Projects</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link"> About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link"> Contact</a>
+          </li>
+        </ul>
+      </div>
+     </div>
+    </nav>
+    <!-- image animation -->
+     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="../image/animation1.png" class="d-block w-100 animationimage alt="animation1.png">
+    </div>
+    <div class="carousel-item">
+      <img src="../image/animation2.png" class="d-block w-100 animationimage alt="animation2.png">
+    </div>
+    <div class="carousel-item">
+      <img src="../image/animation3.png" class="d-block w-100 animationimage alt="animation3.png">
+    </div>
+    <div class="carousel-item">
+      <img src="../image/animation4.png" class="d-block w-100 animationimage alt="animation4.png">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+     </div>
+     <!--Search Box-->
+     <div class="container-fuild SearchBox">
+     <div class="container">
+  <div class="row col-12">
+    <div class="col-sm-12 col-md-6 text-center fs-2 p-2 text-animations">
+    </div>
+    <div class="col-sm-12 col-md-6 text-center mobile-search">
+      <input type="text" id="Search" placeholder="Search Box" onkeyup="searchlist()">
+      <i class="fa-solid fa-magnifying-glass Search-icon"></i>
+    </div>
+</div>
+</div>
+ <!--Hero section-->
+ <div class="container-fluid mt-3">
+      <div class="row">
+        <div class="col-sm-4 col-md-3 col--2">
+          <h3 class="sidebar-title">HTML Course</h3>
+          <ul id="mylist">
+            <li>
+              <a href="Tutorials.html">HTML HOME</a>
+            </li>
+            <li>
+              <a href="Introduction.html">HTML Introduction</a>
+            </li>
+            <li>
+              <a href="basic.html">HTML Basic</a>
+            </li>
+            <li>
+              <a href="element.html">HTML Element</a>
+            </li>
+            <li>
+              <a href="attributes.html">HTML Attributes</a>
+            </li>
+            <li>
+              <a href="heading.html">HTML Headings</a>
+            </li>
+            <li>
+              <a href="Paragrapha.html">HTML Paragrapha</a>
+            </li>
+            <li>
+              <a href="style.html">HTML Style</a>
+            </li>
+            <li>
+              <a href="Formattin.html">HTML Formattin</a>
+            </li>
+            <li>
+              <a href="Quotations.html">HTML Quotations</a>
+            </li>
+            <li>
+              <a href="Colors.html">HTML Colors</a>
+            </li>
+            <li>
+              <a href="Css.html">HTML Css</a>
+            </li>
+            <li>
+              <a href="Links.html">HTML Links</a>
+            </li>
+            <li>
+              <a href="Image.html">HTML Image</a>
+            </li>
+            <li>
+              <a href="Favicon.html">HTML Favicon</a>
+            </li>
+            <li>
+              <a href="Tittle.html">Page Tittle</a>
+            </li>
+            <li>
+              <a href="Tables.html">HTML Tables</a>
+            </li>
+            <li>
+              <a href="Lists.html">HTML Lists</a>
+            </li>
+            <li>
+              <a href="Block.html">Block & Inline</a>
+            </li>
+            <li>
+              <a href="Div.html">HTML Div</a>
+            </li>
+            <li>
+              <a href="Classes.html">HTML Classes</a>
+            </li>
+            <li>
+              <a href="Id.html">HTML Id</a>
+            </li>
+            <li>
+              <a href="Buttons.html">HTML Buttons</a>
+            </li>
+            <li>
+              <a href="Iframe.html">HTML Iframes</a>
+            </li>
+            <li>
+              <a href="file.html">HTML File Paths</a>
+            </li>
+            <li>
+              <a href="Head.html">HTML Head</a>
+            </li>
+            <li>
+              <a href="Layout.html">HTML Layout</a>
+            </li>
+            <li>
+              <a href="Symbols.html">HTML Symbols</a>
+            </li>
+            <li>
+              <a href="Emojis.html"> HTML Emojis</a>
+            </li>
+            <li>
+              <a href="URL Code.html">HTML URL Encode</a>
+            </li>
+            <li>
+              <a href="XHTML.html">HTML VS XHTML</a>
+            </li>
+            <h5 class="list-title">HTML FROM</h5>
+             <li>
+              <a href="Form.html">HTML Form</a>
+            </li>
+            <li>
+              <a href="form att.html">Form Attributes</a>
+            </li>
+            <li>
+              <a href="form ele.html">Form Elements</a>
+            </li>
+            <li>
+              <a href="input-type.html">HTML Input Types</a>
+            </li>
+            <li>
+              <a href="input-att.html">HTML Input Attributes</a>
+            </li>
+            <li>
+              <a href="input-form-att.html">Input Form Attributes</a>
+            </li>
+            <h5 class="list-title">HTML Graphics</h5>
+            <li>
+              <a href="Canvas.html">HTML Canvas</a>
+            </li>
+            <li>
+              <a href="SVG.html">HTML SVG</a>
+            </li>
+            <h5 class="list-title">HTML Media</h5>
+            <li>
+              <a href="Media.html">HTML Media</a>
+            </li>
+            <li>
+              <a href="Video.html">HTML Video</a>
+            </li>
+            <li>
+              <a href="Audio.html">HTML Audio</a>
+            </li>
+            <li>
+              <a href="Plug.html">HTML Plug-ins</a>
+            </li>
+            <li>
+              <a href="Youtube.html">HTML Youtube</a>
+            </li>
+            <h5 class="list-title">HTML APIS</h5>
+            <li>
+              <a href="API.html">HTML Web APIS</a>
+            </li>
+            <li>
+              <a href="Geoloc.html">HTML Geolocation</a>
+            </li>
+            <li>
+              <a href="Drag-Drop.html">HTML Drag & Drop</a>
+            </li>
+            <li>
+              <a href="storge.html">Web Storage</a>
+            </li>
+            <li>
+              <a href="workers.html">Web Workers</a>
+            </li>
+            <li>
+              <a href="SSE.html">HTML SSE</a>
+            </li>
+             <h5 class="list-title">HTML Examples</h5>
+             <li>
+              <a href="Example.html">HTML Examples</a>
+            </li>
+            <li>
+              <a href="Editor.html">HTML Editor</a>
+            </li>
+            <li>
+              <a href="quiz.html">HTML Quiz</a>
+            </li>
+            <li>
+              <a href="exercises.html">HTML Exercises</a>
+            </li>
+             <h5 class="list-title">HTML References</h5>
+              <li>
+              <a href="Lists.html">HTML Tag List</a>
+            </li>
+             <li>
+              <a href="attributes.html">HTML Attributes</a>
+            </li>
+             <li>
+              <a href="globalatt.html"> HTML Global Attributes</a>
+            </li>
+             <li>
+              <a href="browersupp.html"> HTML Brower Support</a>
+            </li>
+             <li>
+              <a href="#">HTML Events</a>
+            </li>
+             <li>
+              <a href="Colors.html">HTML Colors</a>
+            </li>
+             <li>
+              <a href="Canvas.html">HTML Canvas</a>
+            </li>
+             <li>
+              <a href="Audio.html">HTML Audio & Video</a>
+            </li>
+             <li>
+              <a href="">HTML Doctypes</a>
+            </li>
+             <li>
+              <a href="#">HTML Character Sets</a>
+            </li>
+             <li>
+              <a href="URL Code.html">HTML URL Encode</a>
+            </li>
+             <li>
+              <a href="#">HTML Lang Codes</a>
+            </li>
+             <li>
+              <a href="#">HTTP Messages</a>
+            </li>
+             <li>
+              <a href="#">HTML Methods</a>
+            </li>
+             <li>
+              <a href="#">PX to EM Converter</a>
+            </li>
+             <li>
+              <a href="#">keyboard Shortcuts</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-sm-8 col-md-9 content-hero-section">
+          <div class="content-section">
+              <h2>HTML Browser Support & Compatibility</h2>
+              <p>When building for the web, it is important to remember that not all users see your website through the same browser. Different browsers (Chrome, Firefox, Safari, Edge) and their various versions may interpret HTML, CSS, and JavaScript differently.</p>
+              <br>
+              <h3>1. The Role of the Web Browser</h3>
+              <p>A web browser’s job is to read HTML documents and display them. The browser does not display the HTML tags but uses them to determine how to render the content of the page.</p>
+              <br>
+              <h2>2. Why Browser Support Matters</h2>
+              <p>New HTML5 features (like Video, Canvas, or Geolocation) were not available in older browsers. If a user visits your site using an outdated browser, some features might not work. This is why developers use Browser Support Tables.</p>
+              <hr>
+              <h3>3. Modern HTML5 Support Table</h3>
+              <p>Most modern browsers fully support the latest HTML5 standards. Below is a quick reference for the minimum versions required for major features:</p>
+              <br>
+              <table width="100%" height="300px">
+                 <thead>
+                    <th>Feature</th>
+                    <th>Chrome</th>
+                    <th>Edge</th>
+                    <th>Firefox</th>
+                 </thead>
+                 <tbody>
+                    <tr>
+                        <th>&lt;video&gt; & &lt;audio&gt;</th>
+                        <th>4.0+</th>
+                        <th>9.0+</th>
+                        <th>3.5+</th>
+                    </tr>
+                    <tr>
+                        <th>Canvas (2D)</th>
+                        <th>4.0+</th>
+                        <th>9.0+</th>
+                        <th>2.0+</th>
+                    </tr>
+                    <tr>
+                        <th>Local Storage</th>
+                        <th>4.0+</th>
+                        <th>8.0+</th>
+                        <th>3.5+</th>
+                    </tr>
+                    <tr>
+                        <th>Web Workers</th>
+                        <th>4.0+</th>
+                        <th>10.0+</th>
+                        <th>3.5+</th>
+                    </tr>
+                    <tr>
+                        <th>Geolocation</th>
+                        <th>5.0+</th>
+                        <th>12.0+</th>
+                        <th>3.5+</th>
+                    </tr>
+                 </tbody>
+              </table>
+              <br>
+              <hr>
+              <h3>4. Handling Unsupported Browsers</h3>
+              <p>A professional developer always prepares for "Graceful Degradation." This means providing a fallback if a browser cannot run a specific feature.</p>
+              <h3>A. Providing Fallback Text</h3>
+              <p>For media elements like &lt;video&gt; or &lt;canvas&gt;, you should always include text inside the tags for older browsers.</p>
+              <br>
+               <div class="code-box1">
+               <h3>HTML</h3>
+              <p>&lt;video controls&gt;</p>
+               <p>&lt;source src="movie.mp4" type="video/mp4"&gt;</p>
+               <p>Your browser does not support the video tag. Please upgrade</p>
+              <p>&lt;/video&gt;</p>
+            </div>
+            <br>
+            <h3>B. Feature Detection with JavaScript</h3>
+            <p>Before running a complex API (like Geolocation), check if the browser supports it using a simple if statement.</p>
+            <br>
+             <div class="code-box1">
+               <h3>JavaScript</h3>
+              <p>if ("geolocation" in navigator) {;</p>
+               <p>// Browser supports Geolocation</p>
+               <p>} else {</p>
+              <p>// Browser does not support Geolocation</p>
+              <p>alert("Please use a modern browser to see your location.");</p>
+              <p>}</p>
+            </div>
+            <hr>
+            <h3>5. Best Practices for Compatibility</h3>
+            <ul>
+                <li>
+                    <p>Use a Doctype: Always start your document with &lt;!DOCTYPE html&gt; to tell the browser to use the latest rendering standards (Standard Mode).</p>
+                </li>
+                <li>
+                    <p>CSS Reset: Use a CSS reset or "Normalize.css" to ensure that default margins and paddings look the same in all browsers.</p>
+                </li>
+                <li>
+                    <p>Testing: Use tools like "Can I Use" (caniuse.com) to check the support status of any HTML element or CSS property before using it.</p>
+                </li>
+                <li>
+                    <p>Polyfills: For essential features, you can use "Polyfills" (JavaScript libraries) that mimic modern features in older browsers.</p>
+                </li>
+            </ul>
+            <hr>
+            <br>
+            <h3>Summary Checklist</h3>
+            <ol>
+                <li>
+                    <p>Identify your target audience (Are they using mobile or old desktop browsers?).</p>
+                </li>
+                <li>
+                    <p>Check compatibility on "Can I Use".</p>
+                </li>
+                <li>
+                    <p>Implement fallbacks for critical features.</p>
+                </li>
+                <li>
+                    <p>Test your site on at least two different browser engines (Blink/Chrome and WebKit/Safari).</p>
+                </li>
+            </ol>
+       </div>
+      </div>
+    </div>
+    <!--login and sign section-->
+          <div class="container-fluid btn-bg-c">
+       <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-6 mt-2 btn-2 mt-3 mb-3">
+            <button class="btn">Login</button> 
+          </div>
+          <div class="col-sm-12 col-md-6 mt-2 btn-2 mt-3 mb-3">
+            <button>
+  <div class="svg-wrapper-1">
+    <div class="svg-wrapper">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+        width="24"
+        height="24">
+        <path fill="none" d="M0 0h24v24H0z"></path>
+        <path
+          fill="currentColor"
+          d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z">
+        </path>
+          </svg>
+          </div>
+          </div>
+         <span>Sign Up</span>
+          </button>
+          </div>
+        </div>
+       </div>
+      </div>
+         <!--Code Editor-->
+       <div class="container-fluid mt-3" style="height: 550px; background-color: rgb(69, 243, 255);" id="try-here-code">
+         <div class="row">
+           <div class="leftsidecode col-sm-12 col-md-6">
+            <div class="code-head">
+              <h3>Try It Your Self</h3>
+            </div>
+            <div class="code-html-left">
+              <label>HTML</label>
+              <textarea placeholder="Here HTML code"></textarea>
+            </div>
+            <div class="code-css-left">
+              <label>CSS</label>
+              <textarea placeholder="Here css code"></textarea>
+            </div>
+           </div>
+           <div class="rightsidecode col-sm-12 col-md-6 ">
+             <iframe id="output"> 
+             </iframe>
+           </div>
+         </div>
+       </div>
+       <!--Footer-->
+       <div class="container-fluid footer-bg" >
+         <div class="container c-m">
+          <div class="row d-r">
+             <div class="col-sm-12 col-md-6">
+              <h2 class="footer-title"> Sign Up For New <br/>Update</h2>
+              <button class="button-footer">Sign Up</button>
+             </div>
+             <div class="col-sm-12 col-md-3 footer-rightside">
+                
+              <h5>HTML Basic</h5>
+          <ol>
+              <li>
+              <a href="basic.html">HTML Basic</a>
+            </li>
+            <li>
+              <a href="element.html">HTML Element</a>
+            </li>
+            <li>
+              <a href="attributes.html">HTML Attributes</a>
+            </li>
+            <li>
+              <a href="heading.html">HTML Headings</a>
+            </li>
+            <li>
+              <a href="Paragrapha.html">HTML Paragrapha</a>
+            </li>
+            <li>
+              <a href="Tables.html">HTML Tables</a>
+            </li>
+            <li>
+              <a href="Lists.html">HTML Lists</a>
+            </li>
+          </ol>
+             </div>
+             <div class="col-sm-12 col-md-3 footer-rightside">
+                <h5>HTML Advance</h5>
+          <ol>
+             <li>
+              <a href="Div.html">HTML Div</a>
+            </li>
+            <li>
+              <a href="Classes.html">HTML Classes</a>
+            </li>
+            <li>
+              <a href="Id.html">HTML Id</a>
+            </li>
+            <li>
+              <a href="Buttons.html">HTML Buttons</a>
+            </li>
+            <li>
+              <a href="Iframe.html">HTML Iframes</a>
+            </li>
+            <li>
+              <a href="Symbols.html">HTML Symbols</a>
+            </li>
+            <li>
+              <a href="Emojis.html">HTML Emojis</a>
+            </li>
+          </ol>
+             </div>
+          </div>
+          </div>
+       </div>
+ </body>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+     <script src="../js/script.js"></script>
+</html>
