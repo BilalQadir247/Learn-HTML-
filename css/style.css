@@ -484,6 +484,20 @@ button:active {
   margin-left: 30px;
   transition: 1s;
 }
+.button-menu{
+  border-radius: 10px;
+  outline: none;
+  max-width: 80%;
+  height: 60px;
+  background-color: #00fffb;
+  color: black;
+  margin-left: 30px;
+  transition: 1s;
+}
+.button-menu:hover{
+  background-color: black;
+  color: #00fffb;
+}
 .button-footer:hover{
   background-color: black;
   color: #00fffb;
@@ -548,6 +562,7 @@ body{
   color: black;
   border-left: 3px solid green;
   padding: 10px;
+  overflow-y: hidden;
 }
 .code-btn-1{
   margin-top: 10px;
