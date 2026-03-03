@@ -26,8 +26,24 @@
      .c-m{
         margin-top: 160px;
     }
-   
+   .content-hero-section .content-section {
+    height: 100%;
+    
+   }
+   .footer-title{
+    font-size: 26px;
   
+}
+  .f-hidden{
+    /* opacity: 0; */
+    /* display: none; */
+  }
+  .rightsidecode iframe{
+   /* height: 500px; */
+}
+.footer-rightside{
+    margin-left: 49px;
+}
 }
 
 
