@@ -3,8 +3,21 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Learn HTML | keyboard Shortcuts</title>
-        <meta name="description" content="">
+        <title>Essential Keyboard Shortcuts for Windows & Mac | LearnHTML</title>
+        <meta name="title" content="Essential Keyboard Shortcuts for Windows & Mac | LearnHTML">
+        <meta name="description" content="Master 50+ keyboard shortcuts for Windows and macOS. Improve your productivity with shortcuts for text editing, cursor movement, formatting, and file management.">
+        
+        <meta name="keywords" content="keyboard shortcuts, Windows shortcuts, Mac OS shortcuts, text editing shortcuts, copy paste shortcuts mac, undo redo shortcuts windows, cursor movement shortcuts, productivity tips, LearnHTML">
+        
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://learnhtml.com/keyboard-shortcuts">
+        <meta property="og:title" content="Boost Your Speed: Windows vs Mac Keyboard Shortcuts">
+        <meta property="og:description" content="A comprehensive guide comparing basic and advanced keyboard shortcuts for the world's most popular operating systems.">
+        <meta property="og:image" content="../image/shortcuts-thumbnail.png">
+        
+        <meta property="twitter:card" content="summary_large_image">
+        <meta property="twitter:title" content="Master Keyboard Shortcuts | LearnHTML">
+        <meta property="twitter:description" content="Stop clicking and start typing. Learn all essential shortcuts for Windows and Mac in one place.">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link rel="stylesheet" href="../css/style.css" />
@@ -33,19 +46,19 @@
             <a href="Tutorials.html" class="nav-link active"> Tutorials</a>
           </li>
            <li class="nav-item">
-            <a href="#" class="nav-link"> Practice</a>
+            <a href="exercises.html" class="nav-link"> Practice</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link"> Quiz</a>
+            <a href="quiz.html" class="nav-link"> Quiz</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link"> Projects</a>
+            <a href="project.html" class="nav-link"> Projects</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link"> About</a>
+            <a href="about.html" class="nav-link"> About</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link"> Contact</a>
+            <a href="contact.html" class="nav-link"> Contact</a>
           </li>
         </ul>
       </div>
@@ -97,10 +110,16 @@
  <!--Hero section-->
  <div class="container-fluid mt-3">
       <div class="row">
-        <div class="col-sm-4 col-md-3 col--2">
+         <button class="button-menu d-sm-none m-2" 
+        type="button" 
+        data-bs-toggle="collapse" 
+        data-bs-target="#sidebarMenu">
+           ☰ Menu
+         </button>
+        <div class="col-sm-4 col-md-3 col--2 collapse d-sm-block" id="sidebarMenu">
           <h3 class="sidebar-title">HTML Course</h3>
           <ul id="mylist">
-            <li>
+           <li>
               <a href="Tutorials.html">HTML HOME</a>
             </li>
             <li>
@@ -501,10 +520,10 @@
        <div class="container">
         <div class="row">
           <div class="col-sm-12 col-md-6 mt-2 btn-2 mt-3 mb-3">
-            <button class="btn">Login</button> 
+            <button class="btn" id="login">Login</button> 
           </div>
           <div class="col-sm-12 col-md-6 mt-2 btn-2 mt-3 mb-3">
-            <button>
+            <button id="signup">
   <div class="svg-wrapper-1">
     <div class="svg-wrapper">
       <svg

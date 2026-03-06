@@ -3,9 +3,12 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Learn HTML | Brower Support</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+         <title>HTML Browser Support & Compatibility Guide (HTML5 Features & Fallbacks)</title>
+         <meta name="description" content="Learn about HTML browser support and compatibility. Understand HTML5 feature support, fallback techniques, browser detection, and best practices for cross-browser compatibility.">
+         <meta name="keywords" content="HTML browser support, HTML5 compatibility, cross browser compatibility, HTML5 features support, graceful degradation, feature detection, polyfills">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <meta name="author" content="LearnHTML">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link rel="stylesheet" href="../css/style.css" />
         <link rel="stylesheet" href="../css/media.css" />
@@ -33,19 +36,19 @@
             <a href="Tutorials.html" class="nav-link active"> Tutorials</a>
           </li>
            <li class="nav-item">
-            <a href="#" class="nav-link"> Practice</a>
+            <a href="exercises.html" class="nav-link"> Practice</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link"> Quiz</a>
+            <a href="quiz.html" class="nav-link"> Quiz</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link"> Projects</a>
+            <a href="project.html" class="nav-link"> Projects</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link"> About</a>
+            <a href="about.html" class="nav-link"> About</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link"> Contact</a>
+            <a href="contact.html" class="nav-link"> Contact</a>
           </li>
         </ul>
       </div>
@@ -97,10 +100,16 @@
  <!--Hero section-->
  <div class="container-fluid mt-3">
       <div class="row">
-        <div class="col-sm-4 col-md-3 col--2">
+       <button class="button-menu d-sm-none m-2" 
+        type="button" 
+        data-bs-toggle="collapse" 
+        data-bs-target="#sidebarMenu">
+          ☰ Menu
+        </button>
+        <div class="col-sm-4 col-md-3 col--2 collapse d-sm-block" id="sidebarMenu">
           <h3 class="sidebar-title">HTML Course</h3>
           <ul id="mylist">
-            <li>
+             <li>
               <a href="Tutorials.html">HTML HOME</a>
             </li>
             <li>
@@ -281,7 +290,7 @@
               <a href="browersupp.html"> HTML Brower Support</a>
             </li>
              <li>
-              <a href="#">HTML Events</a>
+              <a href="event.html">HTML Events</a>
             </li>
              <li>
               <a href="Colors.html">HTML Colors</a>
@@ -293,28 +302,28 @@
               <a href="Audio.html">HTML Audio & Video</a>
             </li>
              <li>
-              <a href="">HTML Doctypes</a>
+              <a href="Doctypes.html">HTML Doctypes</a>
             </li>
              <li>
-              <a href="#">HTML Character Sets</a>
+              <a href="character.html">HTML Character Sets</a>
             </li>
              <li>
               <a href="URL Code.html">HTML URL Encode</a>
             </li>
              <li>
-              <a href="#">HTML Lang Codes</a>
+              <a href="languagecode.html">Language Codes</a>
             </li>
              <li>
-              <a href="#">HTTP Messages</a>
+              <a href="httpmessages.html">HTTP Messages</a>
             </li>
              <li>
-              <a href="#">HTML Methods</a>
+              <a href="HTTPMethods.html">HTTP Methods</a>
             </li>
              <li>
-              <a href="#">PX to EM Converter</a>
+              <a href="pxconverter.html">PX to EM Converter</a>
             </li>
              <li>
-              <a href="#">keyboard Shortcuts</a>
+              <a href="keyshortcuts.html">keyboard Shortcuts</a>
             </li>
           </ul>
         </div>
@@ -440,10 +449,10 @@
        <div class="container">
         <div class="row">
           <div class="col-sm-12 col-md-6 mt-2 btn-2 mt-3 mb-3">
-            <button class="btn">Login</button> 
+            <button class="btn" id="login">Login</button> 
           </div>
           <div class="col-sm-12 col-md-6 mt-2 btn-2 mt-3 mb-3">
-            <button>
+            <button id="signup">
   <div class="svg-wrapper-1">
     <div class="svg-wrapper">
       <svg
@@ -499,7 +508,7 @@
                 
               <h5>HTML Basic</h5>
           <ol>
-              <li>
+             <li>
               <a href="basic.html">HTML Basic</a>
             </li>
             <li>
@@ -522,7 +531,7 @@
             </li>
           </ol>
              </div>
-             <div class="col-sm-12 col-md-3 footer-rightside">
+             <div class="col-sm-3 col-md-3 footer-rightside f-hidden">
                 <h5>HTML Advance</h5>
           <ol>
              <li>

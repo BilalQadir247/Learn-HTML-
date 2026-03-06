@@ -3,13 +3,17 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Learn HTML | Basic</title>
-        <meta name="description" content="">
+        <title>HTML Basic Examples – Headings, Paragraphs, Links, Images</title>
+        <meta name="description" content="Learn basic HTML examples including headings, paragraphs, links, images, and !DOCTYPE declaration. Includes Try-it-Yourself examples to practice HTML coding.">
+        <meta name="keywords" content="HTML basic examples, HTML headings, HTML paragraphs, HTML links, HTML images, !DOCTYPE, Learn HTML">
+        <meta name="robots" content="index, follow">
+        <meta name="author" content="LearnHTML">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link rel="stylesheet" href="../css/style.css" />
         <link rel="stylesheet" href="../css/media.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+         <link rel="icon" type="image/x-icon" href="../image/logo.png"> 
 
         
     </head>
@@ -34,19 +38,19 @@
             <a href="Tutorials.html" class="nav-link active"> Tutorials</a>
           </li>
            <li class="nav-item">
-            <a href="#" class="nav-link"> Practice</a>
+            <a href="exercises.html" class="nav-link"> Practice</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link"> Quiz</a>
+            <a href="quiz.html" class="nav-link"> Quiz</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link"> Projects</a>
+            <a href="project.html" class="nav-link"> Projects</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link"> About</a>
+            <a href="about.html" class="nav-link"> About</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link"> Contact</a>
+            <a href="contact.html" class="nav-link"> Contact</a>
           </li>
         </ul>
       </div>
@@ -98,7 +102,13 @@
  <!--Hero section-->
  <div class="container-fluid mt-3">
       <div class="row">
-        <div class="col-sm-4 col-md-3 col--2">
+         <button class="button-menu d-sm-none m-2" 
+        type="button" 
+        data-bs-toggle="collapse" 
+        data-bs-target="#sidebarMenu">
+          ☰ Menu
+        </button>
+        <div class="col-sm-4 col-md-3 col--2 collapse d-sm-block" id="sidebarMenu">
           <h3 class="sidebar-title">HTML Course</h3>
           <ul id="mylist">
             <li>
@@ -228,7 +238,7 @@
               <a href="Video.html">HTML Video</a>
             </li>
             <li>
-              <a href="Audio">HTML Audio</a>
+              <a href="Audio.html">HTML Audio</a>
             </li>
             <li>
               <a href="Plug.html">HTML Plug-ins</a>
@@ -270,52 +280,52 @@
             </li>
              <h5 class="list-title">HTML References</h5>
               <li>
-              <a href="#">HTML Tag List</a>
+              <a href="Lists.html">HTML Tag List</a>
             </li>
              <li>
-              <a href="#">HTML Attributes</a>
+              <a href="attributes.html">HTML Attributes</a>
             </li>
              <li>
-              <a href="#"> HTML Global Attributes</a>
+              <a href="globalatt.html"> HTML Global Attributes</a>
             </li>
              <li>
-              <a href="#"> HTML Brower Support</a>
+              <a href="browersupp.html"> HTML Brower Support</a>
             </li>
              <li>
-              <a href="#">HTML Events</a>
+              <a href="event.html">HTML Events</a>
             </li>
              <li>
-              <a href="#">HTML Colors</a>
+              <a href="Colors.html">HTML Colors</a>
             </li>
              <li>
-              <a href="#">HTML Canvas</a>
+              <a href="Canvas.html">HTML Canvas</a>
             </li>
              <li>
-              <a href="#">HTML Audio & Video</a>
+              <a href="Audio.html">HTML Audio & Video</a>
             </li>
              <li>
-              <a href="#">HTML Doctypes</a>
+              <a href="Doctypes.html">HTML Doctypes</a>
             </li>
              <li>
-              <a href="#">HTML Character Sets</a>
+              <a href="character.html">HTML Character Sets</a>
             </li>
              <li>
-              <a href="#">HTML URL Encode</a>
+              <a href="URL Code.html">HTML URL Encode</a>
             </li>
              <li>
-              <a href="#">HTML Lang Codes</a>
+              <a href="languagecode.html">Language Codes</a>
             </li>
              <li>
-              <a href="#">HTTP Messages</a>
+              <a href="httpmessages.html">HTTP Messages</a>
             </li>
              <li>
-              <a href="#">HTML Methods</a>
+              <a href="HTTPMethods.html">HTTP Methods</a>
             </li>
              <li>
-              <a href="#">PX to EM Converter</a>
+              <a href="pxconverter.html">PX to EM Converter</a>
             </li>
              <li>
-              <a href="#">keyboard Shortcuts</a>
+              <a href="keyshortcuts.html">keyboard Shortcuts</a>
             </li>
           </ul>
         </div>
@@ -326,92 +336,89 @@
             <p>In this chapter we will show some basic HTML examples.</p>
             <p>Don't worry if we use tags you have not learned about yet.</p>
             <hr>
+            
             <h3>HTML Documents</h3>
-            <p>All HTML documents must start with a document type declaration:  &lt;!DOCTYPE html&gt;.</p>
+            <p>All HTML documents must start with a document type declaration: &lt;!DOCTYPE html&gt;.</p>
             <p>The HTML document itself begins with &lt;html&gt; and ends with &lt;/html&gt;.</p>
             <p>The visible part of the HTML document is between &lt;body&gt; and &lt;/body&gt;.</p>
+            
             <div class="code-box1">
-              <h2>Example</h2>
-              &lt;!DOCTYPE html&gt;<br/>
-              &lt;html&gt;<br/>
-              &lt;body&gt;<br/><br/>
-              &lt;h1&gt;THis Is Heading &lt;/h1&gt;<br/>
-              &lt;p&gt;THis Is Paragraph &lt;/p&gt;<br/><br/>
-               &lt;/body&gt;<br/>
-              &lt;/html&gt;<br/>
-              <button class="code-btn-1">
-                Try it Yourself
-              </button>
+                <h2>Example</h2>
+                &lt;!DOCTYPE html&gt;<br/>
+                &lt;html&gt;<br/>
+                &lt;body&gt;<br/><br/>
+                &lt;h1&gt;This Is Heading&lt;/h1&gt;<br/>
+                &lt;p&gt;This Is Paragraph&lt;/p&gt;<br/><br/>
+                &lt;/body&gt;<br/>
+                &lt;/html&gt;<br/>
+                <button class="code-btn-1">Try it Yourself</button>
             </div>
+            
             <hr>
             <h2>The &lt;!DOCTYPE&gt; Declaration</h2>
-            <p>The &lt;!DOCTYPE&gt; declaration represents the document type, and helps browsers to display web pages correctly.</p>
+            <p>The &lt;!DOCTYPE&gt; declaration represents the document type, and helps browsers display web pages correctly.</p>
             <p>It must only appear once, at the top of the page (before any HTML tags).</p>
-            <p>The&lt;!DOCTYPE&gt;declaration is not case sensitive.</p>
+            <p>The &lt;!DOCTYPE&gt; declaration is not case sensitive.</p>
             <p>The &lt;!DOCTYPE&gt; declaration for HTML5 is:</p>
             <div class="code-box1">
-              &lt;!DOCTYPE html&gt;<br/>
+                &lt;!DOCTYPE html&gt;<br/>
             </div>
             <hr/>
+            
             <h3>HTML Headings</h3>
             <p>HTML headings are defined with the &lt;h1&gt; to &lt;h6&gt; tags.</p>
-            <p>&lt;h1&gt; defines the most important heading. &lt;h6&gt; defines the least important heading: </p>
-             <div class="code-box1">
-              <h2>Example</h2>
-              &lt;h1&gt;THis Is Heading 1&lt;/h1&gt;<br/>
-              &lt;h2&gt;THis Is Heading 2&lt;/h2&gt;<br/>
-              &lt;h3&gt;THis Is Heading 3&lt;/h3&gt;<br/>
-              <button class="code-btn-1">
-                Try it Yourself
-              </button>
+            <p>&lt;h1&gt; defines the most important heading. &lt;h6&gt; defines the least important heading:</p>
+            <div class="code-box1">
+                <h2>Example</h2>
+                &lt;h1&gt;This Is Heading 1&lt;/h1&gt;<br/>
+                &lt;h2&gt;This Is Heading 2&lt;/h2&gt;<br/>
+                &lt;h3&gt;This Is Heading 3&lt;/h3&gt;<br/>
+                <button class="code-btn-1">Try it Yourself</button>
             </div>
+            
             <hr/>
             <h3>HTML Paragraphs</h3>
-            <p>HTML paragraphs are defined with the  &lt;p&gt;tag:</p>
+            <p>HTML paragraphs are defined with the &lt;p&gt; tag:</p>
             <div class="code-box1">
-              <h2>Example</h2>
-              &lt;p&gt;This is paragraph&lt;/p&gt;<br/>
-              &lt;p&gt;This is another paragraph&lt;/p&gt;<br/>
-              <button class="code-btn-1">
-                Try it Yourself
-              </button>
+                <h2>Example</h2>
+                &lt;p&gt;This is paragraph&lt;/p&gt;<br/>
+                &lt;p&gt;This is another paragraph&lt;/p&gt;<br/>
+                <button class="code-btn-1">Try it Yourself</button>
             </div>
+            
             <hr>
             <h3>HTML Links</h3>
-            <p>HTML links are defined with the  &lt;a&gt; tag:</p>
-             <div class="code-box1">
-              <h2>Example</h2>
-              &lt;a  href="https://www.learnHTML.edu"&gt;Link&lt;/a&gt;<br/>
-              <button class="code-btn-1">
-                Try it Yourself
-              </button>
+            <p>HTML links are defined with the &lt;a&gt; tag:</p>
+            <div class="code-box1">
+                <h2>Example</h2>
+                &lt;a href="https://www.learnHTML.edu"&gt;Link&lt;/a&gt;<br/>
+                <button class="code-btn-1">Try it Yourself</button>
             </div>
-            <p>The link's destination is specified in the href attribute. </p>
+            <p>The link's destination is specified in the href attribute.</p>
             <p>Attributes are used to provide additional information about HTML elements.</p>
             <p>You will learn more about attributes in a later chapter.</p>
+            
             <hr>
             <h3>HTML Images</h3>
-            <p>HTML images are defined with the  &lt;img&gt; tag.</p>
+            <p>HTML images are defined with the &lt;img&gt; tag.</p>
             <p>The source file (src), alternative text (alt), width, and height are provided as attributes:</p>
-             <div class="code-box1">
-              <h2>Example</h2>
-              &lt;img src="learnHTML.jpg" alt="learnHTML.edu" width="104" height="142"&gt;<br/>
-              <button class="code-btn-1">
-                Try it Yourself
-              </button>
+            <div class="code-box1">
+                <h2>Example</h2>
+                &lt;img src="learnHTML.jpg" alt="learnHTML.edu" width="104" height="142"&gt;<br/>
+                <button class="code-btn-1">Try it Yourself</button>
             </div>
+            
             <hr>
             <h2>How to View HTML Source</h2>
             <p>Have you ever seen a Web page and wondered "Hey! How did they do that?"</p>
-            <br>
-            <h3>View HTML Source Code:</h3>
-            <p>Click CTRL + U in an HTML page, or right-click on the page and select "View Page Source". <br> This will open a new tab containing the HTML source code of the page.</p>
-            <br>
-            <h3>Inspect an HTML Element:</h3>
-            <p>Right-click on an element (or a blank area), and choose "Inspect" to see what elements are made up of (you will see both the HTML and the CSS).<br> You can also edit the HTML or CSS on-the-fly in the Elements or Styles panel that opens.
-
-</p>
             
+            <h3>View HTML Source Code:</h3>
+            <p>Click CTRL + U in an HTML page, or right-click on the page and select "View Page Source".<br>
+            This will open a new tab containing the HTML source code of the page.</p>
+            
+            <h3>Inspect an HTML Element:</h3>
+            <p>Right-click on an element (or a blank area), and choose "Inspect" to see what elements are made up of (you will see both the HTML and the CSS).<br>
+            You can also edit the HTML or CSS on-the-fly in the Elements or Styles panel that opens.</p>
           </div>
         </div>
       </div>
@@ -421,10 +428,10 @@
        <div class="container">
         <div class="row">
           <div class="col-sm-12 col-md-6 mt-2 btn-2 mt-3 mb-3">
-            <button class="btn">Login</button> 
+            <button class="btn" id="login">Login</button> 
           </div>
           <div class="col-sm-12 col-md-6 mt-2 btn-2 mt-3 mb-3">
-            <button>
+            <button id="signup">
   <div class="svg-wrapper-1">
     <div class="svg-wrapper">
       <svg
@@ -480,7 +487,7 @@
                 
               <h5>HTML Basic</h5>
           <ol>
-              <li>
+             <li>
               <a href="basic.html">HTML Basic</a>
             </li>
             <li>
@@ -496,36 +503,36 @@
               <a href="Paragrapha.html">HTML Paragrapha</a>
             </li>
             <li>
-              <a href="#">HTML Tables</a>
+              <a href="Tables.html">HTML Tables</a>
             </li>
             <li>
-              <a href="#">HTML Lists</a>
+              <a href="Lists.html">HTML Lists</a>
             </li>
           </ol>
              </div>
-             <div class="col-sm-12 col-md-3 footer-rightside">
+             <div class="col-sm-3 col-md-3 footer-rightside f-hidden">
                 <h5>HTML Advance</h5>
           <ol>
              <li>
-              <a href="#">HTML Div</a>
+              <a href="Div.html">HTML Div</a>
             </li>
             <li>
-              <a href="#">HTML Classes</a>
+              <a href="Classes.html">HTML Classes</a>
             </li>
             <li>
-              <a href="#">HTML Id</a>
+              <a href="Id.html">HTML Id</a>
             </li>
             <li>
-              <a href="#">HTML Buttons</a>
+              <a href="Buttons.html">HTML Buttons</a>
             </li>
             <li>
-              <a href="#">HTML Iframes</a>
+              <a href="Iframe.html">HTML Iframes</a>
             </li>
             <li>
-              <a href="#">HTML Symbols</a>
+              <a href="Symbols.html">HTML Symbols</a>
             </li>
             <li>
-              <a href="#">HTML Emojis</a>
+              <a href="Emojis.html">HTML Emojis</a>
             </li>
           </ol>
              </div>

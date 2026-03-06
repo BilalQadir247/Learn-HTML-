@@ -3,8 +3,12 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Learn HTML | HTML Audio </title>
-        <meta name="description" content="">
+        <!-- SEO Optimized Title and Meta for HTML Audio -->
+         <title>HTML Audio – Play Music & Sound Files | Learn HTML</title>
+         <meta name="description" content="Learn how to use the HTML audio element to play music, podcasts, and sound files. Includes examples, supported formats (MP3, WAV, OGG), and Try-it-Yourself code.">
+         <meta name="keywords" content="HTML audio, audio element, play music in HTML, HTML5 audio, MP3, WAV, OGG, Learn HTML">
+         <meta name="robots" content="index, follow">
+         <meta name="author" content="LearnHTML">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link rel="stylesheet" href="../css/style.css" />
@@ -32,20 +36,20 @@
            <li class="nav-item">
             <a href="Tutorials.html" class="nav-link active"> Tutorials</a>
           </li>
-           <li class="nav-item">
-            <a href="#" class="nav-link"> Practice</a>
+             <li class="nav-item">
+            <a href="exercises.html" class="nav-link"> Practice</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link"> Quiz</a>
+            <a href="quiz.html" class="nav-link"> Quiz</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link"> Projects</a>
+            <a href="project.html" class="nav-link"> Projects</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link"> About</a>
+            <a href="about.html" class="nav-link"> About</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link"> Contact</a>
+            <a href="contact.html" class="nav-link"> Contact</a>
           </li>
         </ul>
       </div>
@@ -100,7 +104,7 @@
         <div class="col-sm-4 col-md-3 col--2">
           <h3 class="sidebar-title">HTML Course</h3>
           <ul id="mylist">
-            <li>
+           <li>
               <a href="Tutorials.html">HTML HOME</a>
             </li>
             <li>
@@ -269,195 +273,162 @@
             </li>
              <h5 class="list-title">HTML References</h5>
               <li>
-              <a href="#">HTML Tag List</a>
+              <a href="Lists.html">HTML Tag List</a>
             </li>
              <li>
-              <a href="#">HTML Attributes</a>
+              <a href="attributes.html">HTML Attributes</a>
             </li>
              <li>
-              <a href="#"> HTML Global Attributes</a>
+              <a href="globalatt.html"> HTML Global Attributes</a>
             </li>
              <li>
-              <a href="#"> HTML Brower Support</a>
+              <a href="browersupp.html"> HTML Brower Support</a>
             </li>
              <li>
-              <a href="#">HTML Events</a>
+              <a href="event.html">HTML Events</a>
             </li>
              <li>
-              <a href="#">HTML Colors</a>
+              <a href="Colors.html">HTML Colors</a>
             </li>
              <li>
-              <a href="#">HTML Canvas</a>
+              <a href="Canvas.html">HTML Canvas</a>
             </li>
              <li>
-              <a href="#">HTML Audio & Video</a>
+              <a href="Audio.html">HTML Audio & Video</a>
             </li>
              <li>
-              <a href="#">HTML Doctypes</a>
+              <a href="Doctypes.html">HTML Doctypes</a>
             </li>
              <li>
-              <a href="#">HTML Character Sets</a>
+              <a href="character.html">HTML Character Sets</a>
             </li>
              <li>
-              <a href="#">HTML URL Encode</a>
+              <a href="URL Code.html">HTML URL Encode</a>
             </li>
              <li>
-              <a href="#">HTML Lang Codes</a>
+              <a href="languagecode.html">Language Codes</a>
             </li>
              <li>
-              <a href="#">HTTP Messages</a>
+              <a href="httpmessages.html">HTTP Messages</a>
             </li>
              <li>
-              <a href="#">HTML Methods</a>
+              <a href="HTTPMethods.html">HTTP Methods</a>
             </li>
              <li>
-              <a href="#">PX to EM Converter</a>
+              <a href="pxconverter.html">PX to EM Converter</a>
             </li>
              <li>
-              <a href="#">keyboard Shortcuts</a>
+              <a href="keyshortcuts.html">keyboard Shortcuts</a>
             </li>
           </ul>
         </div>
         <div class="col-sm-8 col-md-9 content-hero-section">
           <div class="content-section">
-             <h2>HTML Audio</h2>
-             <p>The HTML &lt;audio&gt; element is used to play sound files, music, or podcasts directly on a web page without needing any third-party plugins</p>
-             <h3>The &lt;audio&gt; Element</h3>
-             <p>To embed audio, use the &lt;audio&gt; tag. Like the video tag, it uses the &lt;source&gt; tag to provide different file formats.</p>
+             <main>
+             <article>
+             
+             <h1>HTML Audio – Play Sound Files in Browser</h1>
+             
+             <p>The HTML <code>&lt;audio&gt;</code> element allows you to play sound files, music, or podcasts directly on a web page without any third-party plugins.</p>
+             
+             <hr>
+             
+             <h2>The &lt;audio&gt; Element</h2>
+             <p>To embed audio, use the <code>&lt;audio&gt;</code> tag. Like the <code>&lt;video&gt;</code> tag, it uses the <code>&lt;source&gt;</code> tag to provide multiple file formats.</p>
+             
              <div class="code-box1">
-              <h3>Basic Example:</h3>
-              &lt;audio controls&gt;<br> 
-                &lt;source src="music.mp3" type="audio/mpeg"&gt;<br>
-                &lt;source src="music.ogg" type="audio/ogg"&gt;<br>
-                <p>Your browser does not support the audio element.</p>
-              &lt;/audio&gt;
-              <button class="code-btn-1">
-                Try it Yourself
-              </button>
-            </div>
-            <br>
-            <h3>How it Works:</h3>
-            <ul>
-                <li>
-                    <p><b>controls:</b> Displays the standard browser player (Play, Pause, Volume, and Seek).</p>
-                </li>
-                <li>
-                    <p><b>&lt;/audio&gt;:</b> You can list multiple formats. The browser will automatically play the first one it understands.</p>
-                </li>
-                <li>
-                    <p><b>Fallback Text:</b> The message between the tags only shows if the user's browser is too old to support modern HTML5 audio.</p>
-                </li>
-            </ul>
-            <hr>
-            <h3>Autoplay and Muted</h3>
-            <p>Similar to video, you can make audio start automatically, but browsers have strict rules.</p>
-            <ul>
-                <li>
-                    <p><b>autoplay:</b> Automatically starts the file (often blocked by browsers unless the user has interacted with the site).</p>
-                </li>
-                <li>
-                    <p><b>muted:</b> Starts the audio without sound.</p>
-                </li>
-            </ul>
-            <hr>
-            <div class="code-box1">
-              <h3>Example of Muted Autoplay:</h3>
-              &lt;audio controls autoplay muted&gt;<br> 
-                &lt;source src="music.mp3" type="audio/mpeg"&gt;<br>
-              &lt;/audio&gt;
-              <button class="code-btn-1">
-                Try it Yourself
-              </button>
-            </div>
-            <hr>
-            <h3>Supported Audio Formats</h3>
-            <p>There are three main formats supported by the HTML standard: MP3, WAV, and OGG.</p>
-            <table width="100%" height="200px">
-                <thead>
-                    <th>Browser</th>
-                    <th>MP3</th>
-                    <th>WAV</th>
-                    <th>OGG</th>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Chrome</td>
-                        <td>YES</td>
-                        <td>YES</td>
-                        <td>YES</td>
-                    </tr>
-                    <tr>
-                        <td>Edge</td>
-                        <td>YES</td>
-                        <td>YES</td>
-                        <td>YES</td>
-                    </tr>
-                    <tr>
-                      <td>Firefox</td>
-                        <td>YES</td>
-                        <td>YES</td>
-                        <td>YES</td>
-                    </tr>
-                    <tr>
-                       <td>Safari</td>
-                        <td>YES</td>
-                        <td>YES</td>
-                        <td>No</td>
-                    </tr>
-                    <tr>
-                        <td>Opera</td>
-                        <td>YES</td>
-                        <td>YES</td>
-                        <td>YES</td>
-                    </tr>
-                </tbody>
-            </table>
-            <br>
-            <h3>Media Types (MIME Types):</h3>
-            <ul>
-                <li>
-                    <p><b>MP3:</b>audio/mpeg</p>
-                </li>
-                <li>
-                    <p><b>OGG:</b>audio/ogg</p>
-                </li>
-                <li>
-                    <p><b>WAV:</b>audio/wav</p>
-                </li>
-            </ul>
-            <hr>
-            <h3>HTML Audio Tag Reference</h3>
-            <br>
-            <table width="100%" height="200px">
-                  <thead>
-                    <th>Tag</th>
-                    <th>Description</th>
-                  </thead>
-                  <tbody>
-                    <tr>
-                        <td>&lt;audio&gt;</td>
-                        <td>Defines sound content, such as music or other audio streams.</td>
-                    </tr>
-                    <tr>
-                        <td>&lt;/source&gt;</td>
-                        <td>Defines multiple media resources for <audio> and <video>.</td>
-                    </tr>
-                  </tbody>
-            </table>
-            <hr>
-            <h3>Interactive Control (JavaScript)</h3>
-            <p>Just like video, you can use the HTML DOM to control audio using JavaScript. Common methods include:</p>
-            <ul>
-                <li>
-                    <p><b>play():</b>Starts the audio.</p>
-                </li>
-                <li>
-                    <p><b>pause():</b>Pauses the audio.</p>
-                </li>
-                <li>
-                    <p><b>volume:</b>Adjusts the loudness (from 0.0 to 1.0).</p>
-                </li>
-            </ul>
+               <h3>Basic Example:</h3>
+               &lt;audio controls&gt;<br>
+               &lt;source src="music.mp3" type="audio/mpeg"&gt;<br>
+               &lt;source src="music.ogg" type="audio/ogg"&gt;<br>
+               <p>Your browser does not support the audio element.</p>
+               &lt;/audio&gt;
+               <button class="code-btn-1"> Try it Yourself </button>
+             </div>
+             
+             <hr>
+             
+             <h2>How It Works</h2>
+             <ul>
+               <li><p><strong>controls:</strong> Displays the standard browser player (Play, Pause, Volume, Seek).</p></li>
+               <li><p><strong>&lt;/audio&gt;:</strong> You can list multiple formats. The browser will play the first format it supports.</p></li>
+               <li><p><strong>Fallback Text:</strong> Shown if the browser is too old to support HTML5 audio.</p></li>
+             </ul>
+             
+             <hr>
+             
+             <h2>Autoplay and Muted Attributes</h2>
+             <p>Similar to video, audio can start automatically, but browsers have strict rules:</p>
+             <ul>
+               <li><p><strong>autoplay:</strong> Starts the audio automatically (may be blocked unless the user interacts first).</p></li>
+               <li><p><strong>muted:</strong> Plays audio without sound.</p></li>
+             </ul>
+             
+             <div class="code-box1">
+               <h3>Example of Muted Autoplay:</h3>
+               &lt;audio controls autoplay muted&gt;<br>
+               &lt;source src="music.mp3" type="audio/mpeg"&gt;<br>
+               &lt;/audio&gt;
+               <button class="code-btn-1"> Try it Yourself </button>
+             </div>
+             
+             <hr>
+             
+             <h2>Supported Audio Formats</h2>
+             <p>The main formats supported by HTML5 are MP3, WAV, and OGG:</p>
+             
+             <table width="100%" height="200px">
+               <thead>
+                 <tr>
+                   <th>Browser</th>
+                   <th>MP3</th>
+                   <th>WAV</th>
+                   <th>OGG</th>
+                 </tr>
+               </thead>
+               <tbody>
+                 <tr><td>Chrome</td><td>YES</td><td>YES</td><td>YES</td></tr>
+                 <tr><td>Edge</td><td>YES</td><td>YES</td><td>YES</td></tr>
+                 <tr><td>Firefox</td><td>YES</td><td>YES</td><td>YES</td></tr>
+                 <tr><td>Safari</td><td>YES</td><td>YES</td><td>No</td></tr>
+                 <tr><td>Opera</td><td>YES</td><td>YES</td><td>YES</td></tr>
+               </tbody>
+             </table>
+             
+             <hr>
+             
+             <h2>Media Types (MIME Types)</h2>
+             <ul>
+               <li><p><strong>MP3:</strong> audio/mpeg</p></li>
+               <li><p><strong>OGG:</strong> audio/ogg</p></li>
+               <li><p><strong>WAV:</strong> audio/wav</p></li>
+             </ul>
+             
+             <hr>
+             
+             <h2>HTML Audio Tag Reference</h2>
+             <table width="100%" height="200px">
+               <thead>
+                 <tr><th>Tag</th><th>Description</th></tr>
+               </thead>
+               <tbody>
+                 <tr><td>&lt;audio&gt;</td><td>Defines sound content, like music or other audio streams.</td></tr>
+                 <tr><td>&lt;source&gt;</td><td>Defines multiple media resources for audio and video.</td></tr>
+               </tbody>
+             </table>
+             
+             <hr>
+             
+             <h2>Interactive Control (JavaScript)</h2>
+             <p>You can control audio using JavaScript, just like video. Common methods include:</p>
+             <ul>
+               <li><p><strong>play():</strong> Starts the audio.</p></li>
+               <li><p><strong>pause():</strong> Pauses the audio.</p></li>
+               <li><p><strong>volume:</strong> Adjusts loudness (0.0 to 1.0).</p></li>
+             </ul>
+             
+             </article>
+             </main>
        </div>
       </div>
     </div>
@@ -466,10 +437,10 @@
        <div class="container">
         <div class="row">
           <div class="col-sm-12 col-md-6 mt-2 btn-2 mt-3 mb-3">
-            <button class="btn">Login</button> 
+            <button class="btn" id="login">Login</button> 
           </div>
           <div class="col-sm-12 col-md-6 mt-2 btn-2 mt-3 mb-3">
-            <button>
+            <button id="signup">
   <div class="svg-wrapper-1">
     <div class="svg-wrapper">
       <svg

@@ -3,8 +3,20 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Learn HTML | HTTP Methods</title>
-        <meta name="description" content="">
+        <title>HTTP Methods Guide: GET vs POST, PUT, DELETE Explained | LearnHTML</title>
+        <meta name="title" content="HTTP Methods Guide: GET vs POST, PUT, DELETE Explained | LearnHTML">
+        <meta name="description" content="Understand HTTP request methods. Learn the key differences between GET and POST, and how to use PUT, PATCH, and DELETE in RESTful applications with LearnHTML.">
+        
+        <meta name="keywords" content="HTTP request methods, GET vs POST difference, HTTP PUT vs PATCH, DELETE method, web development tutorial, HTTP protocol, LearnHTML tutorial, REST API methods">
+        
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://learnhtml.com/http-request-methods"> <meta property="og:title" content="Mastering HTTP Methods: GET, POST, and More | LearnHTML">
+        <meta property="og:description" content="Learn how browsers talk to servers using HTTP methods. A complete comparison of GET vs POST and other RESTful verbs.">
+        <meta property="og:image" content="../image/logo.png">
+        
+        <meta property="twitter:card" content="summary_large_image">
+        <meta property="twitter:title" content="HTTP Methods Tutorial | LearnHTML">
+        <meta property="twitter:description" content="Explaining the foundation of web data exchange: GET, POST, PUT, and DELETE methods.">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link rel="stylesheet" href="../css/style.css" />
@@ -32,20 +44,20 @@
            <li class="nav-item">
             <a href="Tutorials.html" class="nav-link active"> Tutorials</a>
           </li>
-           <li class="nav-item">
-            <a href="#" class="nav-link"> Practice</a>
+          <li class="nav-item">
+            <a href="exercises.html" class="nav-link"> Practice</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link"> Quiz</a>
+            <a href="quiz.html" class="nav-link"> Quiz</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link"> Projects</a>
+            <a href="project.html" class="nav-link"> Projects</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link"> About</a>
+            <a href="about.html" class="nav-link"> About</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link"> Contact</a>
+            <a href="contact.html" class="nav-link"> Contact</a>
           </li>
         </ul>
       </div>
@@ -97,7 +109,13 @@
  <!--Hero section-->
  <div class="container-fluid mt-3">
       <div class="row">
-        <div class="col-sm-4 col-md-3 col--2">
+        <button class="button-menu d-sm-none m-2" 
+        type="button" 
+        data-bs-toggle="collapse" 
+        data-bs-target="#sidebarMenu">
+           ☰ Menu
+         </button>
+        <div class="col-sm-4 col-md-3 col--2 collapse d-sm-block" id="sidebarMenu">
           <h3 class="sidebar-title">HTML Course</h3>
           <ul id="mylist">
             <li>
@@ -311,10 +329,10 @@
               <a href="HTTPMethods.html">HTTP Methods</a>
             </li>
              <li>
-              <a href="#">PX to EM Converter</a>
+              <a href="pxconverter.html">PX to EM Converter</a>
             </li>
              <li>
-              <a href="#">keyboard Shortcuts</a>
+              <a href="keyshortcuts.html">keyboard Shortcuts</a>
             </li>
           </ul>
         </div>
@@ -492,10 +510,10 @@
        <div class="container">
         <div class="row">
           <div class="col-sm-12 col-md-6 mt-2 btn-2 mt-3 mb-3">
-            <button class="btn">Login</button> 
+            <button class="btn" id="login">Login</button> 
           </div>
           <div class="col-sm-12 col-md-6 mt-2 btn-2 mt-3 mb-3">
-            <button>
+            <button id="signup">
   <div class="svg-wrapper-1">
     <div class="svg-wrapper">
       <svg

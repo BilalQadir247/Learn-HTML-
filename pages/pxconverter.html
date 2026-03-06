@@ -3,8 +3,21 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Learn HTML | PX to EM </title>
-        <meta name="description" content="">
+        <title>Pixels vs Ems vs Percent: CSS Units Guide | LearnHTML</title>
+        <meta name="title" content="Pixels vs Ems vs Percent: CSS Units Guide | LearnHTML">
+        <meta name="description" content="Master CSS units for responsive web design. Learn the difference between Pixels (px), Ems (em), and Percentage (%) with conversion formulas and cheat sheets.">
+        
+        <meta name="keywords" content="CSS units, px vs em, pixels to em conversion, responsive typography, em vs rem, web design units, css percent vs em, LearnHTML css tutorial">
+        
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://learnhtml.com/css-units-guide">
+        <meta property="og:title" content="Choosing the Right CSS Units for Your Website">
+        <meta property="og:description" content="Stop using fixed pixels! Learn how ems and percentages make your website accessible and responsive.">
+        <meta property="og:image" content="../image/css-units-guide.png">
+        
+        <meta property="twitter:card" content="summary_large_image">
+        <meta property="twitter:title" content="The Ultimate CSS Units Cheat Sheet | LearnHTML">
+        <meta property="twitter:description" content="Convert Pixels to Ems instantly with our handy conversion table.">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link rel="stylesheet" href="../css/style.css" />
@@ -32,20 +45,20 @@
            <li class="nav-item">
             <a href="Tutorials.html" class="nav-link active"> Tutorials</a>
           </li>
-           <li class="nav-item">
-            <a href="#" class="nav-link"> Practice</a>
+            <li class="nav-item">
+            <a href="exercises.html" class="nav-link"> Practice</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link"> Quiz</a>
+            <a href="quiz.html" class="nav-link"> Quiz</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link"> Projects</a>
+            <a href="project.html" class="nav-link"> Projects</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link"> About</a>
+            <a href="about.html" class="nav-link"> About</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link"> Contact</a>
+            <a href="contact.html" class="nav-link"> Contact</a>
           </li>
         </ul>
       </div>
@@ -97,10 +110,16 @@
  <!--Hero section-->
  <div class="container-fluid mt-3">
       <div class="row">
-        <div class="col-sm-4 col-md-3 col--2">
+         <button class="button-menu d-sm-none m-2" 
+        type="button" 
+        data-bs-toggle="collapse" 
+        data-bs-target="#sidebarMenu">
+           ☰ Menu
+         </button>
+        <div class="col-sm-4 col-md-3 col--2 collapse d-sm-block" id="sidebarMenu">
           <h3 class="sidebar-title">HTML Course</h3>
           <ul id="mylist">
-            <li>
+             <li>
               <a href="Tutorials.html">HTML HOME</a>
             </li>
             <li>
@@ -314,7 +333,7 @@
               <a href="pxconverter.html">PX to EM Converter</a>
             </li>
              <li>
-              <a href="#">keyboard Shortcuts</a>
+              <a href="keyshortcuts.html">keyboard Shortcuts</a>
             </li>
           </ul>
         </div>
@@ -412,10 +431,10 @@
        <div class="container">
         <div class="row">
           <div class="col-sm-12 col-md-6 mt-2 btn-2 mt-3 mb-3">
-            <button class="btn">Login</button> 
+            <button class="btn" id="login">Login</button> 
           </div>
           <div class="col-sm-12 col-md-6 mt-2 btn-2 mt-3 mb-3">
-            <button>
+            <button id="signup">
   <div class="svg-wrapper-1">
     <div class="svg-wrapper">
       <svg
@@ -471,7 +490,7 @@
                 
               <h5>HTML Basic</h5>
           <ol>
-              <li>
+             <li>
               <a href="basic.html">HTML Basic</a>
             </li>
             <li>
@@ -494,7 +513,7 @@
             </li>
           </ol>
              </div>
-             <div class="col-sm-12 col-md-3 footer-rightside">
+             <div class="col-sm-12 col-md-3 footer-rightside f-hidden">
                 <h5>HTML Advance</h5>
           <ol>
              <li>

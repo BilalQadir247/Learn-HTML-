@@ -3,8 +3,14 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Learn HTML | HTML Geolocation</title>
-        <meta name="description" content="">
+        <title>HTML Geolocation API Tutorial | Get User Location with JavaScript</title>
+        <meta name="description" content="Learn how to use the HTML Geolocation API to get user location using navigator.geolocation. Includes getCurrentPosition(), watchPosition(), error handling and browser support.">
+        <meta name="author" content="LearnHTML">
+        <link rel="canonical" href="https://LearnHTMLcom/html-geolocation-api">
+        <meta property="og:title" content="HTML Geolocation API – Complete Guide">
+        <meta property="og:description" content="Step-by-step guide to using navigator.geolocation with examples, error handling and tracking.">
+        <meta property="og:type" content="article">
+        <meta property="og:url" content="https://LearnHTMLcom/html-geolocation-api">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link rel="stylesheet" href="../css/style.css" />
@@ -33,19 +39,19 @@
             <a href="Tutorials.html" class="nav-link active"> Tutorials</a>
           </li>
            <li class="nav-item">
-            <a href="#" class="nav-link"> Practice</a>
+            <a href="exercises.html" class="nav-link"> Practice</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link"> Quiz</a>
+            <a href="quiz.html" class="nav-link"> Quiz</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link"> Projects</a>
+            <a href="project.html" class="nav-link"> Projects</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link"> About</a>
+            <a href="about.html" class="nav-link"> About</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link"> Contact</a>
+            <a href="contact.html" class="nav-link"> Contact</a>
           </li>
         </ul>
       </div>
@@ -97,10 +103,16 @@
  <!--Hero section-->
  <div class="container-fluid mt-3">
       <div class="row">
-        <div class="col-sm-4 col-md-3 col--2">
+         <button class="button-menu d-sm-none m-2" 
+        type="button" 
+        data-bs-toggle="collapse" 
+        data-bs-target="#sidebarMenu">
+           ☰ Menu
+         </button>
+        <div class="col-sm-4 col-md-3 col--2 collapse d-sm-block" id="sidebarMenu">
           <h3 class="sidebar-title">HTML Course</h3>
           <ul id="mylist">
-            <li>
+           <li>
               <a href="Tutorials.html">HTML HOME</a>
             </li>
             <li>
@@ -269,52 +281,52 @@
             </li>
              <h5 class="list-title">HTML References</h5>
               <li>
-              <a href="#">HTML Tag List</a>
+              <a href="Lists.html">HTML Tag List</a>
             </li>
              <li>
-              <a href="#">HTML Attributes</a>
+              <a href="attributes.html">HTML Attributes</a>
             </li>
              <li>
-              <a href="#"> HTML Global Attributes</a>
+              <a href="globalatt.html"> HTML Global Attributes</a>
             </li>
              <li>
-              <a href="#"> HTML Brower Support</a>
+              <a href="browersupp.html"> HTML Brower Support</a>
             </li>
              <li>
-              <a href="#">HTML Events</a>
+              <a href="event.html">HTML Events</a>
             </li>
              <li>
-              <a href="#">HTML Colors</a>
+              <a href="Colors.html">HTML Colors</a>
             </li>
              <li>
-              <a href="#">HTML Canvas</a>
+              <a href="Canvas.html">HTML Canvas</a>
             </li>
              <li>
-              <a href="#">HTML Audio & Video</a>
+              <a href="Audio.html">HTML Audio & Video</a>
             </li>
              <li>
-              <a href="#">HTML Doctypes</a>
+              <a href="Doctypes.html">HTML Doctypes</a>
             </li>
              <li>
-              <a href="#">HTML Character Sets</a>
+              <a href="character.html">HTML Character Sets</a>
             </li>
              <li>
-              <a href="#">HTML URL Encode</a>
+              <a href="URL Code.html">HTML URL Encode</a>
             </li>
              <li>
-              <a href="#">HTML Lang Codes</a>
+              <a href="languagecode.html">Language Codes</a>
             </li>
              <li>
-              <a href="#">HTTP Messages</a>
+              <a href="httpmessages.html">HTTP Messages</a>
             </li>
              <li>
-              <a href="#">HTML Methods</a>
+              <a href="HTTPMethods.html">HTTP Methods</a>
             </li>
              <li>
-              <a href="#">PX to EM Converter</a>
+              <a href="pxconverter.html">PX to EM Converter</a>
             </li>
              <li>
-              <a href="#">keyboard Shortcuts</a>
+              <a href="keyshortcuts.html">keyboard Shortcuts</a>
             </li>
           </ul>
         </div>
@@ -475,10 +487,10 @@
        <div class="container">
         <div class="row">
           <div class="col-sm-12 col-md-6 mt-2 btn-2 mt-3 mb-3">
-            <button class="btn">Login</button> 
+            <button class="btn" id="login"s>Login</button> 
           </div>
           <div class="col-sm-12 col-md-6 mt-2 btn-2 mt-3 mb-3">
-            <button>
+            <button id="signup">
   <div class="svg-wrapper-1">
     <div class="svg-wrapper">
       <svg
@@ -534,7 +546,7 @@
                 
               <h5>HTML Basic</h5>
           <ol>
-              <li>
+            <li>
               <a href="basic.html">HTML Basic</a>
             </li>
             <li>
@@ -557,7 +569,7 @@
             </li>
           </ol>
              </div>
-             <div class="col-sm-12 col-md-3 footer-rightside">
+             <div class="col-sm-12 col-md-3 footer-rightside f-hidden">
                 <h5>HTML Advance</h5>
           <ol>
              <li>
