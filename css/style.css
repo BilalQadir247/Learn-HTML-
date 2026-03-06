@@ -609,3 +609,6 @@ body{
   background:white;
 }
 
+body{
+  overflow-x: hidden;
+}
