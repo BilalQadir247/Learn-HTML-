@@ -1,0 +1,85 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Quiz Page</title>
+         
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="../css/style.css" />
+        <link rel="stylesheet" href="../css/media.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="icon" type="image/x-icon" href="../image/logo.png">        
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+     <div class="container">
+      <div class="navbar-brand">
+        <img src="../image/logo.png" alt="logo" class="logo">
+        <b>Learn HTML</b>
+
+        </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar">
+         <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a href="../index.html" class="nav-link "> Home</a>
+          </li>
+           <li class="nav-item">
+            <a href="Tutorials.html" class="nav-link"> Tutorials</a>
+          </li>
+            <li class="nav-item">
+            <a href="exercises.html" class="nav-link" > Practice</a>
+          </li>
+          <li class="nav-item">
+            <a href="quiz.html" class="nav-link active"> Quiz</a>
+          </li>
+          <li class="nav-item">
+            <a href="project.html" class="nav-link"> Projects</a>
+          </li>
+          <li class="nav-item">
+            <a href="about.html" class="nav-link"> About</a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link"> Contact</a>
+          </li>
+        </ul>
+      </div>
+     </div>
+    </nav>
+      <div class="container-fluid">
+    <div class="row justify-content-center align-items-center" style="min-height: 100vh;">
+        
+        <div class="col-12 col-md-8 col-lg-6 p-3">
+            
+            <div class="card quiz-card border-0 shadow-sm p-4">
+                
+                <div class="mb-3">
+                    <span class="badge bg-primary mb-2" id="value"> Question #1</span>
+                    <h3 class="h4 fw-bold mt-1" id="question" style="color: white;"></h3>
+                </div>
+ 
+                <hr>
+
+                <div class="d-grid gap-2 mt-4">
+                    <button class="btn p-3 option1">A) Berlin</button>
+                    <button class="btn p-3 option2">B) Madrid</button>
+                    <button class="btn p-3 option3">C) Paris</button>
+                    <button class="btn p-3 option4">D) Rome</button>
+                </div>
+
+                <div class="mt-4 d-flex justify-content-between align-items-center">
+                    <button class="btn px-5 py-2 px-2 rounded-pill shadow-sm result">Result</button>
+                    <button class="btn px-5 py-2 px-2 rounded-pill shadow-sm reset">Reset</button>
+                    <button class="btn px-5 py-2 px-2 rounded-pill shadow-sm nextbtn">Next</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    </body> 
+       <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+     <script src="../Js/quiz.js"></script>
+</html>
