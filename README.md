@@ -56,7 +56,7 @@ Project run karne ke steps:
 
 Repository clone karo
 
-git clone https://github.com/yourusername/learnhtml.git
+git clone https://github.com/BilalQadir247/learnhtml.git
 
 Project folder open karo **Visual Studio Code me
 
