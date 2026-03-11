@@ -50,7 +50,7 @@ codebtn1.forEach(btn => {
 // login and sign up
 
 const login = document.querySelector("#login");
-const signup = document.querySelector("#signup");
+const signup = document.querySelector ("#signup");
 const quizbutton = document.querySelector(".code-btn-2");
 
 signup.addEventListener("click",()=>{
