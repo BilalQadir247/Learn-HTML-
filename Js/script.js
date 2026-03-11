@@ -44,4 +44,20 @@ codebtn1.forEach(btn => {
       behavior: "smooth"
     })
   })
-})
+}); 
+
+
+// login and sign up
+
+const login = document.querySelector("#login");
+const signup = document.querySelector("#signup");
+const quizbutton = document.querySelector(".code-btn-2");
+
+signup.addEventListener("click",()=>{
+  window.location.href = "sign.html"
+});
+
+login.addEventListener("click", () => {
+  window.location.href = "login.html"
+});
+
