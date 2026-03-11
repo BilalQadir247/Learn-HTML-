@@ -679,3 +679,10 @@ body{
     border-radius: 5px;
     outline: none;
 }
+
+/* sign up page */
+.auth-card {
+ max-width: 450px;
+ margin: 50px auto;
+ border-top: 5px solid #35d499;
+}
